@@ -8249,3 +8249,62 @@ h6 .wpb_text_column p {
 	width: 270px;
 	height: 199px;
 }
+
+/*
+841
+*/
+.pt-32 {
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+/*
+883
+*/
+.mt-100 {
+    margin-top: 100px;
+}
+/*
+1148
+*/
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+/*
+6445
+*/
+.partner-five-col{
+    overflow: hidden;
+}
+
+.partner-five-col .list{
+    display: flex;
+    width: 3120px;
+    overflow: hidden;
+    animation: scroll 10s linear infinite;
+}
+
+.partner-five-col .list .bg-img{
+    width: 140px !important;
+    margin: 0 60px;
+}
+
+/*
+6478
+*/
+.style-five .partner-five-col{
+    background-color: white;
+    margin-top: 60px;
+}
+/*
+scroll auto 6495
+*/
+@keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-1560px);
+    }
+  }
